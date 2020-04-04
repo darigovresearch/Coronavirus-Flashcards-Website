@@ -11,10 +11,14 @@ It will be primarily put into a form which can be easily learnt/revised using An
 This will be a community driven project to ensure most accurate information and that corrections can be easily provided. We hope to translate this into as many languages as possible to make it as accessible as possible to a wider variety of people.
 
 ### Who is it for?
-General public - To help people learn about the topic during this epidemic & so that knowledge is retained to prevent lessons being forgotten in the future
-Teachers - Can be used in a course curriculum for students
-Developers - Many applications to do with the outbreak will need to so we hope to make the data easily integratable into an in-app FAQ or so it can be used during a loading screen for example
-Students - To learn about the various topics that this situation presents
+- General public 
+  - To help people learn about the topic during this epidemic & so that knowledge is retained to prevent lessons being forgotten in the future
+- Teachers
+  - Can be used in a course curriculum for students
+- Developers
+  - Many applications to do with the outbreak will need to so we hope to make the data easily integratable into an in-app FAQ or so it can be used during a loading screen for example
+- Students
+  - To learn about the various topics that this situation presents
 
 Flashcard content is published under suitable open source licenses so that they can be improved and built upon and so that people do not need to reinvent the wheel when trying to learn or teach about these topics.
 
