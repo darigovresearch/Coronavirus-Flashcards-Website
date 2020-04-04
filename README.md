@@ -1,4 +1,4 @@
-# Corona-Virus-Flashcards-Website
+# Coronavirus-Flashcards-Website
 Website for https://github.com/darigovresearch/Corona-Virus-Flashcards
 
 ## Introduction
@@ -35,7 +35,7 @@ Content will be broken down initially into the following sections (but we are op
 8. Sociology
 9. Academia
 10. Appendix - Flashcards FAQ
-11. Appendix - Corona Virus FAQ
+11. Appendix - Coronavirus FAQ
 12. Appendix - Corrections
 
 ### What Help will we need?
