@@ -39,11 +39,16 @@ Content will be broken down initially into the following sections (but we are op
 12. Appendix - Corrections
 
 ### What Help will we need?
-Content writers - Need people to write the content for the relevant sections of the flashcards
-Content checkers - People to test & verify that the content is correct
-Web developers - Will probably need html, css, python developers to build the website and to automate the pulling of the data from GitHub
-Translators - We hope to make the content easily understandable in any language as pandemics are global issues
-Sharers - Getting the word out on the project will help encourage people to use the resources and to potentially contribute as well
+- Content writers 
+  - Need people to write the content for the relevant sections of the flashcards
+- Content checkers 
+  - People to test & verify that the content is correct
+- Web developers 
+  - Will probably need html, css, python developers to build the website and to automate the pulling of the data from GitHub
+- Translators 
+  - We hope to make the content easily understandable in any language as pandemics are global issues
+- Sharers 
+  - Getting the word out on the project will help encourage people to use the resources and to potentially contribute as well
 
 ## Contributing
 To make this project extensible as far into the future as possible we are following certain rules which will also make it possible to programmatically pull the data.
