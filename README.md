@@ -11,7 +11,7 @@ It will be primarily put into a form which can be easily learnt/revised using An
 This will be a community driven project to ensure most accurate information and that corrections can be easily provided. We hope to translate this into as many languages as possible to make it as accessible as possible to a wider variety of people.
 
 ### Who is it for?
-- General public 
+- General public
   - To help people learn about the topic during this epidemic & so that knowledge is retained to prevent lessons being forgotten in the future
 - Teachers
   - Can be used in a course curriculum for students
@@ -39,15 +39,15 @@ Content will be broken down initially into the following sections (but we are op
 12. Appendix - Corrections
 
 ### What Help will we need?
-- Content writers 
+- Content writers
   - Need people to write the content for the relevant sections of the flashcards
-- Content checkers 
+- Content checkers
   - People to test & verify that the content is correct
-- Web developers 
+- Web developers
   - Will probably need html, css, python developers to build the website and to automate the pulling of the data from GitHub
-- Translators 
+- Translators
   - We hope to make the content easily understandable in any language as pandemics are global issues
-- Sharers 
+- Sharers
   - Getting the word out on the project will help encourage people to use the resources and to potentially contribute as well
 
 ## Contributing
