@@ -33,6 +33,11 @@ Coded by www.creative-tim.com
   <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
+
+  <!-- parsing library -->
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+
 </head>
 
 <body class="landing-page">
@@ -166,92 +171,112 @@ Coded by www.creative-tim.com
           <div class="col-md-8 mx-auto text-center">
             <h3 class="display-3">Categories</h3>
             <p class="lead">What topics are covered in these flashcards?</p>
+            <p>Click on the card to get a preview</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(1, 'Glossary of terms')">
               <div class="card-body">
                 <h5 class="text-center">Glossary of terms</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(2, 'History of Epidemics')">
               <div class="card-body">
                 <h5 class="text-center">History of Epidemics</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(3, 'Biology')">
               <div class="card-body">
                 <h5 class="text-center">Biology</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(4, 'Medicine')">
               <div class="card-body">
                 <h5 class="text-center">Medicine</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(5, 'Mathematics')">
               <div class="card-body">
                 <h5 class="text-center">Mathematics</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(6, 'Manufacturing & Logistics')">
               <div class="card-body">
                 <h5 class="text-center">Manufacturing & Logistics</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(7, 'Public Policy')">
               <div class="card-body">
                 <h5 class="text-center">Public Policy</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(8, 'Sociology')">
               <div class="card-body">
                 <h5 class="text-center">Sociology</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(9, 'Academia')">
               <div class="card-body">
                 <h5 class="text-center">Academia</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(10, 'Appendix - Flashcards FAQs')">
               <div class="card-body">
                 <h5 class="text-center">Appendix - Flashcards FAQs</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(11, 'Appendix - Coronavirus FAQs')">
               <div class="card-body">
                 <h5 class="text-center">Appendix - Coronavirus FAQs</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-4 d-flex align-items-stretch">
-            <div class="card shadow flex-grow-1">
+            <div class="card shadow flex-grow-1"data-toggle="modal" data-target=".bd-example-modal-lg" onclick="load_content(12, 'Appendix - Corrections')">
               <div class="card-body">
                 <h5 class="text-center">Appendix - Corrections</h5>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleLargeModalLabel">Build in Progress</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="largeModalContent">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -328,7 +353,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
       </div>
-</div>
+    </div>
 
     <div class="section features-1">
       <div class="container">
@@ -437,6 +462,54 @@ Coded by www.creative-tim.com
       </div>
     </footer>
   </div>
+
+
+
+  <script>
+    function load_content(chapter_number, name){
+      // load_content is code to parse csv depending on the title that was chosen
+
+      document.getElementById("exampleLargeModalLabel").innerHTML = name
+
+      // generating url
+      base_url = "https://raw.githubusercontent.com/darigovresearch/Coronavirus-Flashcards/master/en/Coronavirus%20Flashcards%20en%20English%20Chapter%20"
+      url = base_url + chapter_number + "%20" + name.replace(" ", "%20") + ".csv"
+
+      let new_testString = ""
+
+      fetch(url)
+      .then(response => response.text())
+      .then((data) => {
+        new_testString = data
+
+        // parsing the csv
+        let new_test = Papa.parse(new_testString,{
+          delimiter: "|"
+        });
+
+        // generating the html content
+        content = ""
+        for (var i = 0; i < new_test.data.length -1; i++) {
+          card = new_test.data[i]
+          cleaned_front = card[0].replace("(Coronavirus Flashcards)", "")
+
+          if (card[1] == "TODO") {
+            cleaned_back = "Looks like this has been finished yet, know the answer? <a href='https://github.com/darigovresearch/Coronavirus-Flashcards#contributing' target='_blank'>Make a contribution!</a>"
+          } else {
+            cleaned_back = card[1]
+          }
+
+          temp_content = `
+            <h6>${cleaned_front}</h6>
+            <p>${cleaned_back}</p>
+          `
+          content = content + temp_content
+        }
+        document.getElementById("largeModalContent").innerHTML = content
+      })
+    }
+
+  </script>
 
   <div class="github-ribbon" style="position: absolute; right: 0px; width: 150px; height: 150px; overflow: hidden; z-index: 99999; top: 0px;"><a target="_blank" href="https://github.com/darigovresearch/Coronavirus-Flashcards-Website" style="display: inline-block; width: 200px; overflow: hidden; padding: 6px 0px; text-align: center; transform: rotate(45deg); text-decoration: none; color: rgb(255, 255, 255); position: inherit; right: -40px; font: 700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px; background-color: rgb(170, 0, 0); top: 45px;">Fork me on GitHub</a></div>
 
