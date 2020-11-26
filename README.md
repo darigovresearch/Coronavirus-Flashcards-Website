@@ -1,6 +1,8 @@
 # Coronavirus-Flashcards-Website
 Website for https://github.com/darigovresearch/Corona-Virus-Flashcards
 
+The website can be viewed here https://darigovresearch.github.io/Coronavirus-Flashcards-Website/
+
 ## Introduction
 
 ### What is it?
