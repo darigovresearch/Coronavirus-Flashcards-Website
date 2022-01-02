@@ -64,11 +64,14 @@ Translation is in progress, see below to choose what you would like to contribut
 
 | Language code | Language | Status | Preview | Download |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
+| `ar`  | Arabic | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/37) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/37) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/37) |
 | `de`  | German | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/4) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/4) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/4) |
 | `es`  | Spanish  | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/10) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/10) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/10) |
+| `fr`  | French  | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/38) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/38) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/38) |
 | `it`  | Italian  | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/12) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/12) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/12) |
 | `ro`  | Romanian | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/13) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/13) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/13) |
 | `ru`  | Russian | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/5) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/5) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/5) |
+| `zh`  | Chinese | [Pending Translation, want to help?](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/37) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/37) | [TODO](https://github.com/darigovresearch/Coronavirus-Flashcards/issues/37) |
 
 ## License
 This website is built under an MIT License, content unless specified comes from https://github.com/darigovresearch/Corona-Virus-Flashcards is under a CC-BY-SA license. See the repository for more details.
