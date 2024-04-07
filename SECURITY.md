@@ -1,6 +1,6 @@
 # Security Policy
 
-This is a the security policy for this particular repository i.e. the [repo_name](ADD_LINK).
+This is a the security policy for this particular repository i.e. the [Coronavirus-Flashcards-Website](https://github.com/darigovresearch/Coronavirus-Flashcards-Website).
 
 ### What to do
 In the unlikely event of a vulnerability:
